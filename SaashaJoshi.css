@@ -1,0 +1,126 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+.pimg1, .pimg2, .pimg3{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	/*fixed==parallax
+	scroll==normal
+	*/
+	background-attachment: fixed;
+}
+
+.pimg1{
+	background-image: url("pinkclouds.jpg");
+	min-height: 100%;
+}
+
+.pimg2{
+	background-image: url("pinkclouds.jpg");
+	min-height: 400px;
+}
+
+.pimg3{
+	background-image: url("pinkclouds.jpg");
+	min-height: 400px;
+}
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+
+}
+
+.section-light{
+	background-color: pink;
+	color: white;
+}
+
+.section-dark{
+	background-color: indianred;
+	color: mistyrose;
+}
+
+.ptext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.ptext .border{
+	background-color: mistyrose;
+	color: indianred;
+	padding: 20px;
+}
+
+.ptext .border.trans{
+	background-color: transparent;
+}
+
+.ptext .border.trans.headtext{
+	/*border: 3px solid indianred;*/
+	border-bottom: 3px solid indianred;
+	letter-spacing: 10px;
+	font-size: 30px;
+}
+
+.ptext .border.trans.subtext{
+	letter-spacing: 10px;
+	font-size: 20px;
+	color: slategrey;
+}
+
+.btext{
+	position: absolute;
+	top: 35%;
+	width: 100%;
+	text-align: center;
+	color: mistyrose;
+	font-size: 25px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.btext .button1{
+	text-align: center;
+	color: mistyrose;
+	font-size: 25px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	background-color: indianred;
+	/*opacity: 0.70;*/
+	border: 2px solid indianred;
+	margin: 30px auto 0;
+	padding: 20px 25px;
+}
+
+.btext .button1:hover{
+	transition: 0.3s;
+	background-color: mistyrose;
+	color: indianred;
+	text-decoration: underline;
+	letter-spacing: 6px;
+}
+
+.footer{
+	background-color: mistyrose;
+	text-align: center;
+	font-size: 15px;
+	color: slategrey;
+}
